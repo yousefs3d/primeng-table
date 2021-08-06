@@ -5,6 +5,7 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './primeng-table.component.html',
   styleUrls: ['./primeng-table.component.scss']
 })
+//Test commit
 export class PrimengTableComponent implements OnInit {
   @Input() cols: any[];
   @Input() data = [];
